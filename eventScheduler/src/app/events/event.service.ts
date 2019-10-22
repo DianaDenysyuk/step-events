@@ -25,4 +25,8 @@ export class EventService{
     getAllEvents(){
         return this.events.slice();
     }
+    pushEvent(event: Event){
+        return this.events.push(event);
+    }
+
 }
